@@ -1,0 +1,393 @@
+2021-10-23 05:57:57,134 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 334, in message_handler
+    await chan_handler(msg, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 184, in _trades
+    await _trade_update(trade, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 179, in _trade_update
+    await self.callback(TRADES, t, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/feed.py", line 201, in callback
+    await cb(obj, receipt_timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/callback.py", line 20, in __call__
+    await self.callback(obj, receipt_timestamp)
+TypeError: trade() missing 5 required positional arguments: 'id', 'timestamp', 'side', 'amount', and 'price'
+2021-10-23 05:57:58,321 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 334, in message_handler
+    await chan_handler(msg, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 184, in _trades
+    await _trade_update(trade, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 179, in _trade_update
+    await self.callback(TRADES, t, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/feed.py", line 201, in callback
+    await cb(obj, receipt_timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/callback.py", line 20, in __call__
+    await self.callback(obj, receipt_timestamp)
+TypeError: trade() missing 5 required positional arguments: 'id', 'timestamp', 'side', 'amount', and 'price'
+2021-10-23 05:57:59,514 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 334, in message_handler
+    await chan_handler(msg, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 184, in _trades
+    await _trade_update(trade, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 179, in _trade_update
+    await self.callback(TRADES, t, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/feed.py", line 201, in callback
+    await cb(obj, receipt_timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/callback.py", line 20, in __call__
+    await self.callback(obj, receipt_timestamp)
+TypeError: trade() missing 5 required positional arguments: 'id', 'timestamp', 'side', 'amount', and 'price'
+2021-10-23 05:58:00,705 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 334, in message_handler
+    await chan_handler(msg, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 184, in _trades
+    await _trade_update(trade, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 179, in _trade_update
+    await self.callback(TRADES, t, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/feed.py", line 201, in callback
+    await cb(obj, receipt_timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/callback.py", line 20, in __call__
+    await self.callback(obj, receipt_timestamp)
+TypeError: trade() missing 5 required positional arguments: 'id', 'timestamp', 'side', 'amount', and 'price'
+2021-10-23 05:58:01,901 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 334, in message_handler
+    await chan_handler(msg, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 184, in _trades
+    await _trade_update(trade, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 179, in _trade_update
+    await self.callback(TRADES, t, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/feed.py", line 201, in callback
+    await cb(obj, receipt_timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/callback.py", line 20, in __call__
+    await self.callback(obj, receipt_timestamp)
+TypeError: trade() missing 5 required positional arguments: 'id', 'timestamp', 'side', 'amount', and 'price'
+2021-10-23 05:58:03,099 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 334, in message_handler
+    await chan_handler(msg, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 184, in _trades
+    await _trade_update(trade, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/exchanges/bitfinex.py", line 179, in _trade_update
+    await self.callback(TRADES, t, timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/feed.py", line 201, in callback
+    await cb(obj, receipt_timestamp)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/callback.py", line 20, in __call__
+    await self.callback(obj, receipt_timestamp)
+TypeError: trade() missing 5 required positional arguments: 'id', 'timestamp', 'side', 'amount', and 'price'
+2021-10-23 06:24:00,871 : WARNING : BITFINEX.ws.1: received no messages within timeout, restarting connection
+2021-10-23 06:38:05,828 : WARNING : BITFINEX.ws.1: encountered connection issue sent 1000 (OK); no close frame received - reconnecting in 1.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 115, in _handler
+    async for message in connection.read():
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 320, in read
+    async for data in self.conn:
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 929, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: sent 1000 (OK); no close frame received
+2021-10-23 06:38:06,850 : WARNING : BITFINEX.ws.1: encountered connection issue [Errno 8] nodename nor servname provided, or not known - reconnecting in 2.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 59, in _create_connection
+    async with self.conn.connect() as connection:
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 181, in __aenter__
+    return await self.gen.__anext__()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 94, in connect
+    await self._open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 304, in _open
+    self.conn = await websockets.connect(self.address, **self.ws_kwargs)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 649, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 653, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "uvloop/loop.pyx", line 1963, in create_connection
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-10-23 06:38:09,160 : WARNING : BITFINEX.ws.1: encountered connection issue [Errno 8] nodename nor servname provided, or not known - reconnecting in 4.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 59, in _create_connection
+    async with self.conn.connect() as connection:
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 181, in __aenter__
+    return await self.gen.__anext__()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 94, in connect
+    await self._open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 304, in _open
+    self.conn = await websockets.connect(self.address, **self.ws_kwargs)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 649, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 653, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "uvloop/loop.pyx", line 1963, in create_connection
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-10-23 06:38:13,184 : WARNING : BITFINEX.ws.1: encountered connection issue [Errno 8] nodename nor servname provided, or not known - reconnecting in 8.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 59, in _create_connection
+    async with self.conn.connect() as connection:
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 181, in __aenter__
+    return await self.gen.__anext__()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 94, in connect
+    await self._open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 304, in _open
+    self.conn = await websockets.connect(self.address, **self.ws_kwargs)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 649, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 653, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "uvloop/loop.pyx", line 1963, in create_connection
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-10-23 06:38:21,207 : WARNING : BITFINEX.ws.1: encountered connection issue [Errno 8] nodename nor servname provided, or not known - reconnecting in 16.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 59, in _create_connection
+    async with self.conn.connect() as connection:
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 181, in __aenter__
+    return await self.gen.__anext__()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 94, in connect
+    await self._open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 304, in _open
+    self.conn = await websockets.connect(self.address, **self.ws_kwargs)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 649, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 653, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "uvloop/loop.pyx", line 1963, in create_connection
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-10-23 06:38:37,232 : WARNING : BITFINEX.ws.1: encountered connection issue [Errno 8] nodename nor servname provided, or not known - reconnecting in 32.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 59, in _create_connection
+    async with self.conn.connect() as connection:
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 181, in __aenter__
+    return await self.gen.__anext__()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 94, in connect
+    await self._open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 304, in _open
+    self.conn = await websockets.connect(self.address, **self.ws_kwargs)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 649, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 653, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "uvloop/loop.pyx", line 1963, in create_connection
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-10-23 06:39:09,259 : WARNING : BITFINEX.ws.1: encountered connection issue [Errno 8] nodename nor servname provided, or not known - reconnecting in 64.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 59, in _create_connection
+    async with self.conn.connect() as connection:
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py", line 181, in __aenter__
+    return await self.gen.__anext__()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 94, in connect
+    await self._open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 304, in _open
+    self.conn = await websockets.connect(self.address, **self.ws_kwargs)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 649, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
+    return fut.result()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/client.py", line 653, in __await_impl__
+    transport, protocol = await self._create_connection()
+  File "uvloop/loop.pyx", line 1963, in create_connection
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+2021-10-23 11:10:10,940 : WARNING : BITFINEX.ws.1: encountered connection issue no close frame received or sent - reconnecting in 1.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 115, in _handler
+    async for message in connection.read():
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 320, in read
+    async for data in self.conn:
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2021-10-23 11:31:05,029 : WARNING : BITFINEX.ws.1: encountered connection issue no close frame received or sent - reconnecting in 1.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 115, in _handler
+    async for message in connection.read():
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 320, in read
+    async for data in self.conn:
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2021-10-23 14:22:59,956 : WARNING : BITFINEX.ws.1: encountered connection issue no close frame received or sent - reconnecting in 1.0 seconds...
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 115, in _handler
+    async for message in connection.read():
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 320, in read
+    async for data in self.conn:
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2021-10-23 15:15:10,973 : ERROR : BITFINEX.ws.1: encountered an exception, reconnecting in 1.0 seconds
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 723, in readexactly
+    await self._wait_for_data('readexactly')
+  File "/usr/local/Cellar/python@3.9/3.9.7_1/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/streams.py", line 517, in _wait_for_data
+    await self._waiter
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 115, in _handler
+    async for message in connection.read():
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection.py", line 320, in read
+    async for data in self.conn:
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+TypeError: 'NoneType' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 69, in _create_connection
+    await self._handler(connection, self.handler)
+  File "/Users/lewisbrown/dev/pythonprojects/finstream/venv/lib/python3.9/site-packages/cryptofeed/connection_handler.py", line 119, in _handler
+    await handler(message, connection, self.conn.last_message)
+AttributeError: 'TypeError' object has no attribute 'send'
